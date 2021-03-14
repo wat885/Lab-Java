@@ -1,0 +1,41 @@
+package com.buzzfreeze.helloWorld;
+
+public class java2_2 {
+	
+	
+	public static void main(String [] args) {
+//		Lab 2
+		//1.ประกาศ method ชื่อว่าbark ขึ้นมาแล้วเอาmethod main ไปเรียก method bark โดย method bark ให้มี local variable ชื่อdogName ที่กาหนดชื่อหมาเป็นอะไรก็ได้แล้วก็ให้print ว่า “The Dog name = xxxbark”
+		bark();
+		
+		//2.ให้ลองเปลี่ยนค่าprimitive แล้ว print ออกมาโดยให้เปลี่ยนจาก
+		//a.float -> int
+		float myF = 5.5f;
+		int myI = (int) myF;
+		System.out.println(myI);
+		//b.int -> float
+		float myF2 = (int) myI;
+		System.out.println(myF2);
+		//c.double -> float 
+		double myDouble = 2.2d;
+		float myF3 = (float) myDouble;
+		System.out.println(myF3);
+		//d.char -> int 
+		char myChar = '\u0000';
+		int myI2 = (int) myChar;
+		System.out.println(myI2);
+		
+		//3.ทดลองประกาศ final variable ชื่อhello ให้มีค่า = “Hello” แล้วบรรทัดถัดมาลองไป Assign ค่าใหม่ให้ตัวแปรนี้เป็นค่า“World” แล้วลองดู run แล้วดูว่าเกิดไรขึ้น?
+
+		final String mystring = "Hello";
+//		mystring = "World";
+		// run ไม่ผ่านเปลียนค่าไม่ได้
+		
+	}
+	
+	public static void bark(){
+		String dogName = "hiper";
+		System.out.println("The Dog name = " + dogName + " bark");
+	}
+
+}

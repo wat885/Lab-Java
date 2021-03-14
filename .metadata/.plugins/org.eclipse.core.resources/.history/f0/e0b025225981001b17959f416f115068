@@ -1,0 +1,27 @@
+package com.buzzfreeze.helloWorld;
+
+public class lab4_1ControlFlow {
+
+	public static void main(String[] args) {
+		// 1
+		int score = 50;
+		switch(score) {
+		case 80:
+			System.out.println("A");break;
+		case 70:
+			System.out.println("B");break;
+		case 60:
+			System.out.println("C");break;
+		case 50:
+			System.out.println("D");break;
+		case 40:
+			System.out.println("E");break;
+		default:
+			System.out.println("E");break;
+			
+			
+		}
+
+
+	}
+}

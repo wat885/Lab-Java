@@ -1,0 +1,41 @@
+package com.buzzfreeze.java12;
+
+public class Employee {
+
+	public String firstname;
+	public String lastname;
+	private int salary;
+	public static String planet = "Earth";
+
+	public String position;
+
+	public static void main(String[] args) {
+//		Employee em1 = new Employee("Krisada", "Chalermsook", 10000, "CEO");
+//		Employee em2 = new Employee("john", "wick", 10000, "developer");
+//		test();
+//		em1.hello();
+//		em1.checkPosition();
+//		System.out.println(em2.getFullName(em2.firstname, em2.lastname));
+
+		
+	}
+	
+
+
+	public Employee(String firstnameInput, String lastnameInput, int salaryInput, String positionInput) {
+		firstname = firstnameInput;
+		lastname = lastnameInput;
+		salary = salaryInput;
+		position = positionInput;
+	}
+
+	public void hello() {
+		System.out.println("Hello " + this.firstname);
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+
+}

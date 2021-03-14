@@ -1,0 +1,48 @@
+package com.buzzfreeze.JavaPart1;
+
+public class java4_5ContinueFor {
+	public static void main(String[] args) {
+//		Lab 9
+//		1.กําหนดตัวแปร count สําหรับนับจํานวนรอบ 
+//		a.count เริ่มต้นที่0 และไปจบที่20 (รวม 20 ด้วย)
+//		b.ถ้า count มีค่าเป็น 11 คําสั่งcontinue ภายใน if จะทํางาน 
+//		c.ให้แสดงค่า 11 และเริ่มต้นรอบใหม่โดยไม่สนใจคําสั่งที่เหลือด้านล่าง
+
+//		int count = 0;
+//		while (count <= 20) {
+////			System.out.println("Counter" + count);
+//			count++;
+//			if (count == 11) {
+//				System.out.println(count);
+//				continue;
+//			}
+//			
+//		}
+		
+//		Lab 10
+//		ให้สร้างโปรแกรมวน loop 10 รอบโดยมีค่าเริ่มต้นที่1 และไปจบ 10 ให้แสดงทุกค่ายกเว้นค่า 2 โดยใช้คําสั่งcontinue
+
+		
+		int i = 0;
+		while (i <= 20) {
+//			System.out.println("Counter" + count);
+			i++;
+			if (i == 2) {
+				
+				continue;
+			}
+			System.out.println(i);
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+		
+}
+
+

@@ -1,0 +1,12 @@
+package com.buzzfreeze.java12;
+
+public class Day10 {
+	
+	public static void main(String[] args) {
+
+		Employee dang = new Employee("Dang","Red", 50,"tester");
+
+		dang.getSalary();
+	}
+
+}

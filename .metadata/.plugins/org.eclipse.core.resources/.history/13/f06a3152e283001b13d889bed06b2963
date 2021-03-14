@@ -1,0 +1,23 @@
+package com.buzzfreeze.lab;
+
+public class Course {
+
+	public String price;
+	public String title;
+	public String urlImage;
+	public String instructor;
+	public int numTotal;
+	public int numSold;
+	public Course(String price, String title, String urlImage, String instructor, int numTotal, int numSold) {
+		super();
+		this.price = price;
+		this.title = title;
+		this.urlImage = urlImage;
+		this.instructor = instructor;
+		this.numTotal = numTotal;
+		this.numSold = numSold;
+	}
+
+
+
+}

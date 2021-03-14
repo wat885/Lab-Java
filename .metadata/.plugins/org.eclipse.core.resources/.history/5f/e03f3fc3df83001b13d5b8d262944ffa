@@ -1,0 +1,10 @@
+package com.buzzfreeze.lab;
+
+public class Product implements IProductFrontPage {
+
+	public String price;
+	public String tile;
+	public String urlImage;
+	public String soldText;
+
+}

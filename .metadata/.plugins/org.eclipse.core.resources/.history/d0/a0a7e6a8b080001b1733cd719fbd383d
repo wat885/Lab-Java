@@ -1,0 +1,12 @@
+package com.buzzfreeze.helloWorld;
+
+public class VariableScope {
+	// instance variable
+	public static int instanceInt = 20;
+	public static void main(String[] main) {
+		// local variable
+		int localInt = 20;
+		}
+	}
+
+

@@ -1,0 +1,23 @@
+package com.buzzfreeze.helloWorld;
+
+public class lab4_4ControlFlow3 {
+
+	public static void main(String[] args) {
+
+		for (int counter = 0; counter <= 10; counter++) {
+			System.out.println("Counter :" + counter);
+		}
+
+		int myArray[] = { 1, 2, 3, 4, 5 };
+		for (int counter : myArray) {
+			System.out.println("Counter :" + counter);
+		}
+
+		int counter = 0;
+		while (counter < 5) {
+			System.out.println("Counter" + counter);
+			counter++;
+		}
+
+	}
+}

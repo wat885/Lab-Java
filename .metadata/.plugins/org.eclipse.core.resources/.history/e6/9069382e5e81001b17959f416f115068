@@ -1,0 +1,33 @@
+package com.buzzfreeze.helloWorld;
+
+public class lab3Operater {
+	public static void main(String [] args) {
+
+		//1
+		int i = 20;
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		
+		float ff = 33.3f;
+		//2
+		if((ff== 33.3f) && (ff == 1.3f))
+			System.out.println("ff  == 33.3f && 1.3f");
+		
+		//3
+		char c = 'c';
+		if((c== 'c') || (c == 's'))
+			System.out.println("c == c || s");
+
+
+
+		
+	}
+}

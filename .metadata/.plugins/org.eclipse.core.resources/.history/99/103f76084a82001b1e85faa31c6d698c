@@ -1,0 +1,24 @@
+package com.buzzfreeze.JavaPart2;
+
+public class SamSungGalaxyNote8 {
+	public static void main(String[] args) {
+//		Lab 2 ทดลองออกแบบการสืบทอดของ Class
+		
+		
+
+	}
+
+	public void PhoneCall() {
+
+	}
+	
+	public void SMS() {
+
+	}
+	
+	public void InternetSurfing() {
+
+	}
+	
+	
+}

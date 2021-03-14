@@ -1,0 +1,36 @@
+package com.buzzfreeze.lab;
+
+public class Employee {
+
+	public String firstname;
+	public String lastname;
+	private int salary;
+	// 1. ประกาศตัวแปล position str เก็บตำแหน่ง
+	// 2. สร้าง method public checkPosion
+	// print ตำแหน่ง
+	public String position;
+	
+	public static void main (String[] args) {
+		
+	}
+
+	public Employee(String firstnameInput, String lastnameInput, int salaryInput) {
+		firstname = firstnameInput;
+		lastname = lastnameInput;
+		salary = salaryInput;
+	}
+
+	public void hello() {
+		System.out.println("Hello " + firstname);
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+	
+	public void checkPosition() {
+		System.out.println("My Position is "+ position);
+	}
+	
+	
+}

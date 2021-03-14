@@ -1,0 +1,23 @@
+package com.buzzfreeze.JavaPart2;
+
+public class java7 {
+	public static void main(String[] args) {
+//		Lab 12
+
+		String String1 = "You and Me";
+		String String2 = " you and me ";
+
+		// 1
+		if (String1.equals(String2))
+			System.out.println("Equal");
+		else
+			System.out.println("Not equal");
+		
+		//2
+		String check = "you";
+		System.out.println(String2.contains(check));
+		
+		//3
+		System.out.println(String2.length());
+	}
+}

@@ -1,0 +1,38 @@
+package com.buzzfreeze.JavaPart2;
+
+public class lec6 {
+	public static void main(String[] args) {
+//		char[] myChar = { 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd' };
+//		String myWord = new String(myChar);
+//		System.out.println(myWord);
+
+//		String myString = "FirstString";
+//		String compareString_1 = "FirstString";
+//		String compareString_2 = "firstString";
+//		if (myString.equals(compareString_1))
+//			System.out.println("Equal");
+//		else
+//			System.out.println("Not equal");
+//		if (myString.equals(compareString_2))
+//			System.out.println("Equal");
+//		else
+//			System.out.println("Not equal");
+
+//		//.contains()
+//		String oak = "Krissada Chalermsook";
+//		String check = "sook";
+//		System.out.println(oak.contains(check));
+//		String check2 = "oak";
+//		System.out.println(oak.contains(check2));
+
+//		String word_1 = "JavaScript";
+//		String word_2 = "สวัสดีวันอาทิตย์";
+//		System.out.println("Word 1 length : " + word_1.length());
+//		System.out.println("Word 2 length : " + word_2.length());
+
+		String word = "Java is fun!";
+		System.out.println(word.substring(3));
+		System.out.println(word.substring(0, 4));
+
+	}
+}

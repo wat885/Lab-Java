@@ -1,0 +1,22 @@
+package com.buzzfreeze.helloWorld;
+
+public class lab2 {
+	
+	
+	public static void main(String [] args) {
+		//1.
+		bark();
+		
+		//2.
+		float myF = 5.5f;
+		int myI = (int) myF;
+		System.out.println(myI);
+		
+	}
+	
+	public static void bark(){
+		String dogName = "hiper";
+		System.out.println("The Dog name = " + dogName + " bark");
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.buzzfreeze.helloWorld;
+
+public class HelloWorld {
+	public static void main(String [] args) {
+		System.out.println("Hello World");
+//		int myInt;
+//		// Assign value to myInt = 20;
+//		myInt = 20;
+//		System.out.println("myInt value: "+ myInt);
+//		// Declare and assign
+//		int myNewInt = 50;
+//		System.out.println("myNewInt value: "+ myNewInt);
+		
+	}
+}

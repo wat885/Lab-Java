@@ -1,0 +1,18 @@
+package com.buzzfreeze.helloWorld;
+
+public class HelloWorld {
+	public static void main(String [] args) {
+		System.out.println("Hello World");
+		
+		int myInt = 20;
+		System.out.println("This is a int " + myInt);
+
+		boolean myBoolean = true ;
+		System.out.println("myNewInt value: "+ myBoolean);
+		
+		String mystr = "Hello";
+		System.out.println("myNewInt value: "+ mystr);
+
+		
+	}
+}

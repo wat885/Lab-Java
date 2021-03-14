@@ -1,0 +1,62 @@
+package com.buzzfreeze.helloWorld;
+
+public class java4_4ControlFlow3 {
+
+	public static void main(String[] args) {
+
+//		1.แสดงค่า i ในแต่ละรอบ โดยการประกาศตัวแปร i มาใช้ในการนับในเงื่อนไขของ 
+//		while ถ้าหาก i น้อยกว่าหรือเท่ากับ 10 while ( i <= 10 ) แสดงค่า i ออกมา 
+//		แต่ละรอบ ( i มีค่าเริ่มต้นเป็น1)
+		int i = 0;
+		while (i <= 10) {
+			System.out.println("Counter" + i);
+			i++;
+		}
+
+//		2.สร้างโปรแกรมหาผลรวมของตัวเลข 1 ถึง 10
+		int sum = 0;
+		for (int counter = 0; counter <= 10; counter++) {
+			sum += counter;
+		}
+		System.out.println("sum = " + sum);
+
+//		3.สร้างโปรแกรมหาค่าระหว่าง 1-100 ที่หาร12 ลงตัว
+		i = 0;
+		while (i <= 100) {
+			if (i % 12 == 0) {
+				System.out.println(i + "หาร 12 ลงตัว" );
+			}
+			i++;
+		}
+		
+//		4.ให้ประกาศ array ที่มีค่า[1,2,3,4,5] แล้วใช้ foreach ในการวน loop แล้ว print ค่าออกมาทั้งหมดLab 6. ท าพร้อมๆกัน While Loop
+
+		int myArray[] = { 1, 2, 3, 4, 5 };
+		for (int counter : myArray) {
+			System.out.println("Counter :" + counter);
+		}
+		
+		
+		
+		
+		
+		
+		
+
+//		for (int counter = 0; counter <= 10; counter++) {
+//			System.out.println("Counter :" + counter);
+//		}
+//
+//		int myArray[] = { 1, 2, 3, 4, 5 };
+//		for (int counter : myArray) {
+//			System.out.println("Counter :" + counter);
+//		}
+//
+//		int counter = 0;
+//		while (counter < 5) {
+//			System.out.println("Counter" + counter);
+//			counter++;
+//		}
+
+	}
+}

@@ -1,0 +1,31 @@
+package com.buzzfreeze.lab;
+
+public class Product implements IProductFrontPage {
+
+	public String price;
+	public String title;
+	public String urlImage;
+	public String soldText;
+	
+	@Override
+	public String getTile() {
+		// TODO Auto-generated method stub
+		return title;
+	}
+	@Override
+	public String getPrice() {
+		// TODO Auto-generated method stub
+		return price;
+	}
+	@Override
+	public String getUrlImage() {
+		// TODO Auto-generated method stub
+		return urlImage;
+	}
+	@Override
+	public String getSoldText() {
+		// TODO Auto-generated method stub
+		return soldText;
+	}
+
+}

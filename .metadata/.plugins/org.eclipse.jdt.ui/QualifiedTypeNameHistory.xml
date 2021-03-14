@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.comp.dependencies.PublicApiCollector"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.buzzfreeze.lab.Employee"/>
+    <fullyQualifiedTypeName name="com.buzzfreeze.lab.IProductFrontPage"/>
+    <fullyQualifiedTypeName name="com.buzzfreeze.lab.Product"/>
+</qualifiedTypeNameHistroy>

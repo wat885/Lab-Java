@@ -1,0 +1,35 @@
+package com.buzzfreeze.helloWorld;
+
+public class java3 {
+	public static void main(String [] args) {
+
+//		1 ประกาศ int i ให้มีค่า = 20 
+//		a.เรียก i++ 5 ครั้งแล้วprint ค่า i ออกมา
+//		b.เรียก --i 5 ครั้งแล้วprint ค่า i ออกมา
+		int i = 20;
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		
+		float ff = 33.3f;
+		//2 ทดลองใช้ && กับข้อมูลประเภท float 
+		if((ff== 33.3f) && (ff == 1.3f))
+			System.out.println("ff  == 33.3f && 1.3f");
+		
+		//3 ทดลองใช้ || กับข้อมูลประเภท char 
+		char c = 'c';
+		if((c== 'c') || (c == 's'))
+			System.out.println("c == c || s");
+
+
+
+		
+	}
+}

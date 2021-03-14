@@ -1,0 +1,22 @@
+package com.buzzfreeze.JavaPart2;
+
+public class PhoneX {
+	public static void main(String[] args) {
+
+		
+
+	}
+
+	public void  UseGearVR() {
+
+	}
+	
+	public void TransformToPC() {
+
+	}
+	
+	public void GooglePlay() {
+
+	}
+	
+}

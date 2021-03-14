@@ -1,0 +1,56 @@
+package com.buzzfreeze.lab;
+
+public class Employee {
+
+	public String firstname;
+	public String lastname;
+	private int salary;
+	// 1. ประกาศตัวแปล position str เก็บตำแหน่ง
+	// 2. สร้าง method public checkPosion print ตำแหน่ง
+	// 3. สร้างอีก Employee เพิ่ม 1 คน
+	// 4. สร้าง method getFullName return FirstName ต่อกับ LastName
+	public String position;
+
+	public static void main(String[] args) {
+		Employee em1 = new Employee("Krisada", "Chalermsook", 10000, "CEO");
+		
+		Employee em2 = new Employee("john", "wick", 10000, "developer");
+		
+		test();
+
+		em2.hello();
+		em1.hello();
+		em1.checkPosition();
+		System.out.println(em2.getFullName(em2.firstname, em2.lastname));
+
+	}
+	
+	public static void test() {
+		System.out.println("this is static method");
+	}
+
+	public Employee(String firstnameInput, String lastnameInput, int salaryInput, String positionInput) {
+		firstname = firstnameInput;
+		lastname = lastnameInput;
+		salary = salaryInput;
+		position = positionInput;
+	}
+
+	public void hello() {
+		System.out.println("Hello " + firstname);
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void checkPosition() {
+		System.out.println("My Position is " + position);
+	}
+	
+	public String getFullName(String fName, String lName) {
+//		System.out.println(fName +"My Position is " + position);
+		return fName + " " +lName;
+	}
+
+}

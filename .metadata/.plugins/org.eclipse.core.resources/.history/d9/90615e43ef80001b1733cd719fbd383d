@@ -1,0 +1,23 @@
+package com.buzzfreeze.helloWorld;
+
+public class lab3Operater {
+	public static void main(String [] args) {
+
+		//1
+		int i = 20;
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a i++  " + i++);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+		System.out.println("This is a --i  " + --i);
+
+
+
+		
+	}
+}

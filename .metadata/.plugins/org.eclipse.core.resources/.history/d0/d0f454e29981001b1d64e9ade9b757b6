@@ -1,0 +1,13 @@
+package com.buzzfreeze.JavaPart2;
+
+public class java8 {
+	public static void main(String[] args) {
+//		Lab 12 กําหนด String เป็นดังน
+		int[][] twoD_Array = { { 1, 2, 3 }, { 4, 5, 6, 7 }, { 8, 9 } };
+		for (int row = 0; row < twoD_Array.length; row++) {
+			for (int element = 0; element < twoD_Array[row].length; element++) {
+				System.out.println(twoD_Array[row][element]);
+			}
+		}
+	}
+}

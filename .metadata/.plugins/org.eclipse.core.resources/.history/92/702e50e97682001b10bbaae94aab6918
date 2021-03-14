@@ -1,0 +1,26 @@
+package com.buzzfreeze.JavaPart2;
+
+public class SamSungGalaxyNote8 {
+	public static void main(String[] args) {
+
+		
+
+	}
+
+	public void  UseGearVR() {
+
+	}
+	
+	public void TransformToPC() {
+
+	}
+	
+	public void UsePen() {
+
+	}
+	
+	public void GooglePlay() {
+
+	}
+	
+}
