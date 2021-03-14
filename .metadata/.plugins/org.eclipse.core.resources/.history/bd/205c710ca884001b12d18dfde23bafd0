@@ -1,0 +1,26 @@
+package com.buzzfreeze.lab;
+
+public class Main {
+	
+	public static void main (String[] args) {
+		IProductFrontPage []  products = new IProductFrontPage[5];
+		products[0] = new Product("1000", "iPhone", "", "ขายไปแล้ว 10 เครื่อง");
+		products[1] = new Course("10000", "เรียนว","", "Oak", 30, 5);
+		products[2] = new Course("10000", "เรียน","", "Oak", 30, 5);
+		products[3] = new Product("1000", "iPhone", "", "ขายไปแล้ว 10 เครื่อง");
+		products[4] = new Course("10000", "เรียน","", "Oak", 30, 5);
+		
+		
+		for (int i = 0; i < products.length; i++) {
+			System.out.println("<div>" + products[i].getTile() + "</div>");
+			System.out.println("<div>" + products[i].getTile() + "</div>");
+			System.out.println("<div>" + products[i].getTile() + "</div>");
+			System.out.println("<div>" + products[i].getTile() + "</div>");
+			System.out.println("<div>" + products[i].getTile() + "</div>");
+		}
+		
+		Product x = new Product(null, null, null, null);
+		x.producStatus = ProductStatus.Status.DRAFT;
+	}
+
+}

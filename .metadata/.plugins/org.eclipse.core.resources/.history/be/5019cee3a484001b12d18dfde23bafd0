@@ -1,0 +1,29 @@
+package com.buzzfreeze.lab;
+
+public class OakProduct extends AbstractProductFrontPage {
+
+	@Override
+	public String getTile() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPrice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getUrlImage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getSoldText() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.buzzfreeze.lab;
+
+public abstract class AbstractProductFrontPage {
+	public abstract String  getTile();
+	public abstract String getPrice();
+	public abstract String getUrlImage();
+	public abstract String getSoldText();
+	
+	
+	
+}
