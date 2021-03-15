@@ -1,0 +1,21 @@
+package com.buzzfreeze.collectionlab;
+
+public class Main {
+	public static void main(String [] args) {
+
+		String[] studnets = new String[10];
+		
+		String[] carts = new String[4];
+		carts[0] = "iPhone";
+		carts[0] = "Notebook";
+		for (int i = 0; i < carts.length; i++) {
+			if(carts[i] != null){
+				System.out.println(carts[i]);
+			}
+		}
+
+
+
+		
+	}
+}

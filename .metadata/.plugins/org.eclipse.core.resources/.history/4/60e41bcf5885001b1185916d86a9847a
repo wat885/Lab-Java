@@ -1,0 +1,36 @@
+package com.buzzfreeze.collectionlab;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String [] args) {
+
+		// array
+//		String[] studnets = new String[10];
+//		
+//		String[] carts = new String[4];
+//		carts[0] = "iPhone";
+//		carts[1] = "Notebook";
+//		for (int i = 0; i < carts.length; i++) {
+//			
+//			if(carts[i] != null){
+//				System.out.println(carts[i]);
+//			}
+//		}
+		
+		String oak = "Oad";
+		String via = "via";
+		String touch = "Touch";
+		ArrayList<String> students = new ArrayList<String>();
+		students.add(touch);
+		students.add(via);
+		students.add(oak);
+		System.out.println(students);
+		
+		
+
+
+
+		
+	}
+}

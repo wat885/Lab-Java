@@ -1,0 +1,8 @@
+package com.buzzfreeze.helloWorld;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.buzzfreeze.helloWorld
+	}
+}
+

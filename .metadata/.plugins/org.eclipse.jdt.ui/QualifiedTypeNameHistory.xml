@@ -4,6 +4,9 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.buzzfreeze.lab.Employee"/>
     <fullyQualifiedTypeName name="com.buzzfreeze.lab.IProductFrontPage"/>
-    <fullyQualifiedTypeName name="com.buzzfreeze.lab.Product"/>
+    <fullyQualifiedTypeName name="com.buzzfreeze.java15.Product"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.buzzfreeze.lab.Product"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

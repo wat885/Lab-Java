@@ -1,5 +1,7 @@
 package com.buzzfreeze.lab;
 
+import com.buzzfreeze.java15.Product;
+
 public class Product implements IProductFrontPage {
 
 	public String price;
@@ -16,6 +18,21 @@ public class Product implements IProductFrontPage {
 		this.urlImage = urlImage;
 		this.soldText = soldText;
 	}
+	
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return title;
+	}
+	
+	@Override
+	public boolean equals(Object compare) {
+		// TODO Auto-generated method stub
+		boolean res = title.equals(((Product) compare).title);
+		return res;
+	}
+	
 	
 	@Override
 	public String getTile() {
